@@ -7,12 +7,12 @@
 
     android:background="#f3f3f3"
     android:layout_margin="16dp"
-    android:layout_height="300dp">
+    android:layout_height="280dp">
 
     <ImageView
         android:id="@+id/ivImage"
         android:layout_width="match_parent"
-        android:layout_height="215dp"
+        android:layout_height="180dp"
         android:src="@drawable/noimage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,9 +48,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Order Rate"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/antic"
+        android:text="Order Rate"
         android:textColor="#385455"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,11 +60,25 @@
         android:id="@+id/btnAddToCart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#8BC3C6"
         android:text="Order"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="#8BC3C6"/>
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDrone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/antic"
+        android:text="Drone Avaibility = True"
+        android:textColor="#385455"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrice" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
