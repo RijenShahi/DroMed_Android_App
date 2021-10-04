@@ -1,0 +1,3 @@
+include 'dromedwear'
+include ':app'
+rootProject.name = "DroMedApp"
